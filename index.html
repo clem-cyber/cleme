@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<meta name="keywords" content="formulaire, note, avis" />
+	<meta name="description" content="partage de l'avis de l'utilisateur" />
+	<link rel="stylesheet" type="text/css" media="screen" href="style/style.css"/>
+	<link rel="stylesheet" type="text/css" media="screen" title="clair" href="style/theme_clair.css"/>
+	<link rel="alternate stylesheet" type="text/css" media="screen" title="sombre" href="style/theme_sombre.css" />
+	<script src="javascript/styleswitcher.js"></script>
+	<link rel="icon" href="images/favicon.ico"/>
+	<title>Clément Delfino</title>
+</head>
+<body>
+	<header>
+		<h1><a href="index.html">Clément Delfino</a></h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="pages/projets.html">projets</a></li>
+				<li><a href="pages/etablissement.html">Établissement</a></li>
+				<li><a href="pages/a_propos.html">Auteur</a></li>
+				<li><a href="pages/avis.html">avis</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="presentation">
+		<img src="images/photo_presentation1.jpg" title="Clément Delfino" alt="Photographie de l'auteur" />
+		<article>
+			<h2 >Présentation</h2>
+			<p>Mon nom est Clément Delfino, je suis étudiant en 1ère année de mon Diplôme Universitaire Technologique au département Informatique dans l'établissement d'Aix-en Provence que vous pouvez découvrir dans la rubrique <a href="pages/etablissement.html">"ÉTABLISSEMENT"</a>. J'ai 18 ans, je suis passionné d'informatique en particulier de sécurité informatique et également de musique je vous invite d'ailleurs à découvrir les différents travaux que j'ai réalisé dans ces deux domaines dans la rubrique <a href="pages/projets.html">"PROJETS"</a>. N'hésitez pas à me laisser votre avis sur ces différents sujets par la page <a href="pages/avis.html">"AVIS"</a> mise à votre disposition.</p>
+			<a href="pages/a_propos.html" id="detail">Détails...</a>
+		</article>
+	</section>
+	<section id="actu">
+		<h2>Actualités</h2>
+		<article class="projets">
+			<h3>Derniers projets</h3>
+			<p>Étant au département Informatique de mon DUT j'ai acquérit de l'expérience en programmation notament en C ou C++ ou en langage Bash après avoir suivi une formation pousée d'algorithmie j'ai donc réalisé plusieurs travaux de programmation comme un site Internet de présentation, un mini-jeu ressemblant à Space Invader programmé en C++ ou encore différents scripts de bash. Également passionné par la musique et batteur depuis 12 ans j'ai rejoins un groupe de musique et enregistré quelques morceaux avec eux.</p>
+			<a href="pages/projets.html" class="voir">Voir plus...</a>
+		</article>
+		<article class="etablissement">
+			<h3>Établissement</h3>
+			<p>Je suis actuellement étudiant au département Informatique de l'IUT de l'académie d'Aix Marseille. Étant dans cette  université depuis quelques mois, j'ai pu constater qu'il faisait parti des meilleurs de France.</p>
+			<a href="pages/etablissement.html" class="voir">Voir plus...</a>
+		</article>
+		<article class="recommandation">
+			<h3>Recommandations</h3>
+			<p>
+				Je fais de la programmation depuis que j'ai 13 ans, n'ayant pas encore l'âge d'entrer à l'université j'ai dû apprendre en autodidacte les bases que j'avais avant d'entrer à l'IUT cette année je  vous propose donc une liste des sites qui m'ont aidé à avoir ces bases et qui continuent de m'instruire en complément de mes études :
+			</p>
+				<ul>
+					<li><a target="_blank" href="https://openclassrooms.com/fr/">Openclassrom.com</a></li>
+					<li><a target="_blank" href="https://www.developpez.com/">Developpez.com</a></li>
+				</ul>
+			<p>
+				Je mets également à votre disposition le site de l'entreprise dans laquelle se trouve mon grand frère qui est celui à qui je dois principalement mes bases en informatique :
+			</p>
+				<ul>
+					<li><a target="_blank" href="https://vaadata.com">Vaadata.com</a></li>
+				</ul>
+			<p>
+				Batteur depuis 12 ans et guitariste depuis 2 ans je dois beaucoup à Internet pour toutes les partitions que j'ai pu y trouver et également pour toutes les commandes que j'ai passé par le Web. Ci-dessous une liste des sites qui me sont grandement utiles en tant que musicien :
+			</p>
+				<ul>
+					<li><a target="_blank" href="https://www.thomann.de/fr/index.html">Thomann</a></li>
+					<li><a target="_blank" href="https://www.woodbrass.com">WoodBrass</a></li>
+					<li><a target="_blank" href="https://tabs.ultimate-guitar.com">Tab Ultimate</a></li>
+				</ul>
+		</article>
+	</section>
+	<nav>
+		<a href="#" title="Haut de page"><img src="images/fleche_haut.png" alt="fleche retour haut de page"></a>
+		<a href="#" onclick="setActiveStyleSheet('clair'); return false;" id="ClairButton">Thème Clair</a>
+		<a href="#" onclick="setActiveStyleSheet('sombre'); return false;" id="SombreButton">Thème Sombre</a>
+	</nav>
+
+
+	<footer id="footer_mobile">
+		<h1><a href="index.html">Clément Delfino</a></h1>
+		<nav>
+			<h4>Explorer</h4>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="pages/projets.html">projets</a></li>
+				<li><a href="pages/etablissement.html">Établissement</a></li>
+				<li><a href="pages/a_propos.html">Auteur</a></li>
+				<li><a href="pages/avis.html">Vos avis</a></li>
+			</ul>
+		</nav>
+		<aside>
+			<h4>Me contacter</h4>
+			<ul>
+				<li>Adresse mail : <a href="mailto:clement.delfino@gmail.com">clement.delfino@gmail.com</a></li>
+				<li>Adresse postale : 83143 Le Val</li>
+			</ul>
+		</aside>
+	</footer>
+
+</body>
+
+</html>
